@@ -8,3 +8,6 @@ t app button shutter PR
 sleep 1
 t ia2 -3a 0
 t app button shutter PR
+sleep 1
+d:\autoexec.ash
+reboot yes
