@@ -1,11 +1,11 @@
 t app appmode photo
-sleep 1
+sleep 2
 t ia2 -exp lock -5
-sleep 1
+sleep 2
 t app button shutter PR
-sleep 1
+sleep 2
 t ia2 -exp lock 5
-sleep 1
+sleep 2
 t app button shutter PR
-sleep 1
 d:\autoexec.ash
+reboot yes
